@@ -7,17 +7,17 @@ use tokio::net::TcpListener;
 
 
 
-// async fn get_jakarta() -> String{
-//     String::from("Saya ke jakarta")
-// 
+async fn get_jakarta() -> String{
+    String::from("Saya ke jakarta")
 
-// async fn get_bogor()-> String{
-//     String::from("Saya ke bogor")
-// }
 
-// async fn get_indonesia()-> String{
-//     String::from("Saya ke indonesia")
-// }
+async fn get_bogor()-> String{
+    String::from("Saya ke bogor")
+}
+
+async fn get_indonesia()-> String{
+    String::from("Saya ke indonesia")
+}
 
 
 #[derive(Deserialize)]
